@@ -1,0 +1,10 @@
+__pycache__
+.vscode
+images
+
+heroes_db.sqlite
+
+Pipfile.lock
+
+config.py
+test.py
