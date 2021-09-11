@@ -17,7 +17,6 @@ def main():
     while True:
         data = handler.get_updates(offset)
         for item in data:
-            print(item)
             offset = item['update_id'] + 1
             if 'message' in item:
                 message = Message(item)
